@@ -1,0 +1,229 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Segoe UI;
+	color: #ffffff;
+}
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+header {
+	background: url(../img/bg.jpg) no-repeat center top / cover;
+	height: 790px;
+}
+.conteiner {
+	width: 1140px;
+	margin: 0 auto;
+}
+.logo {
+	margin-top: 57px;
+}
+nav {
+	float: right;
+	margin-top: 57px;
+}
+.menu {
+	margin:0;
+	padding:0;
+	display:block;
+}
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 10px;
+}
+.menu a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 13px;
+	
+}
+.menu a:hover {
+  color: #fcac45;
+}
+.titles {
+	margin-top: 225px;
+}
+.titles h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 45px;
+	margin:0;
+}
+.colortext {
+	color: #fcac45
+}
+.titles p {
+	text-align: center;
+	font-size: 20px;
+	margin: 10px;
+}
+.button {
+	background: #fcac45;
+	color: #111111;
+	border-radius: 35px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 85px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.button a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#111111;
+} 
+.about {
+	padding-top: 100px;
+}
+.title_about {
+	float: right;
+	width: 390px;
+	margin-top: 100px;
+}
+.title_about h3 {
+	color:#111111;
+	text-transform: uppercase;
+	font-size: 24px;
+	margin:0;
+}
+.title_about p {
+	font-size: 18px;
+	color:#6c6c6c;
+	margin:15px;
+}
+
+.team {
+	padding-bottom: 650px;
+	background:#070707;
+}
+.team_title p {
+	text-align: center;
+	font-size: 44px;
+	padding-top: 96px;
+	text-transform: uppercase;
+	margin: 0;
+	
+}
+.team_name {
+	width: 252px;
+	text-align: center;
+	margin-top: 130px;
+}
+.team_name h4 {
+	margin: 0;
+	font-size: 20px;
+}
+.team_name p {
+	margin: 0;
+	margin-top: 15px;
+	font-size: 14px;
+}
+.team_name	{
+	float: left;
+}
+.team_name:last-child {
+	float: right;
+
+}
+.team_name:nth-child(3) {
+	margin-right: 45px;
+}
+.team_name:nth-child(2) {
+	margin-right: 35px;
+}
+.services {
+	padding-bottom: 450px;
+	background:#ffffff;
+}
+.services_title {
+	text-align: center;
+	width: 1138px;
+}
+.services_title p {
+	color: #6c6c6c;
+	font-size: 16px;
+	margin: 15px;
+
+}
+.services_title h2 {
+	color: #222222;
+	font-size: 44px;
+	margin: 0;
+	text-transform: uppercase;
+	padding-top: 98px;
+}
+.forma {
+	text-align: center;
+	width: 244px;
+	float: left;
+	padding-top: 110px;
+}
+.forma h4 {
+	text-transform: uppercase;
+	color: #222222;
+	font-size: 25px;
+	margin: 0;
+}
+.forma p {
+	color: #222222;
+	font-size: 14px;
+	margin: 23px;
+}
+.forma:last-child {
+	float: right;
+}
+.forma:nth-child(2) {
+	margin-left: 45px;
+}
+.forma:nth-child(3) {
+	margin-left: 55px;
+}
+.clients{
+	background: #0b0b0b;
+	height: 550px;
+}
+.clients_title h2 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 120px;
+	font-size: 44px;
+	margin:0;
+}
+.clients_item{
+	float: left;
+	width: 175px;
+}
+.clients_item:last-child {
+	float: right;
+}
+.clients_item:nth-child(4) {
+	margin-right: 70px;
+}
+.clients_item:nth-child(3) {
+	margin-right: 85px;
+}
+.clients_item:nth-child(2) {
+	margin-right: 65px;
+}
+.clients_item {
+	margin-top: 100px;
+}
+.footer {
+	background: #333333; 
+	height: 95px;
+}
+
+
+
+
